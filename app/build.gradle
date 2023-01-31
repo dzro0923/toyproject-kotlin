@@ -7,6 +7,11 @@ android {
     namespace 'com.doyoung.tensortestkotlin'
     compileSdk 33
 
+    aaptOptions {
+        noCompress "tflite"
+    }
+
+
     defaultConfig {
         applicationId "com.doyoung.tensortestkotlin"
         minSdk 30
